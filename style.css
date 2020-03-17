@@ -1,0 +1,32 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body{
+	margin: 0;
+	padding: 0;
+	background : url(b.jpg) no-repeat;
+	background-size: cover;
+}
+.container{
+	width: 280px;
+	position: absolute;
+	background: none;
+	top: 35%;
+	left: 55%;
+	transform: translate(-50%,-50%);
+	color: black;
+}
+.container h2{
+	float: left;
+	font-size: 30px;
+	margin-bottom: 5px;
+	padding: 13px 0
+}
+.container button{
+	width: 50%;
+	background: none;
+	border: 2px solid #000000 ;
+	color: white;
+	padding: 5px;
+	font-size: 15px;
+	cursor: pointer;
+	
+}
